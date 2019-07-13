@@ -19,8 +19,8 @@ function IndexPage() {
           alt="Cat and human sitting on a couch"
         />
 
-        <h2 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3">
-          Hey there! Welcome to your first Gatsby site.
+        <h2 className="bg-blue-400 text-2xl font-bold inline-block my-8 p-3">
+          Brisbane Computer Repair
         </h2>
 
         <p className="leading-loose">
