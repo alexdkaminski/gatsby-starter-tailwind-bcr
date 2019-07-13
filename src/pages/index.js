@@ -17,7 +17,7 @@ function IndexPage() {
         <img
           src={homeTechnician}
           className="block mx-auto w-1/2"
-          alt="Cat and human sitting on a couch"
+          alt="Brisbane Computer Repair Logo"
         />
       </section>
       
