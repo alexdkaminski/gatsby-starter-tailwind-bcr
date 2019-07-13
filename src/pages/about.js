@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import dogIllustration from "../images/dog-illustration.svg";
+import profilePhoto from "../images/profile-photo.jpg";
 
 function AboutPage() {
   return (
@@ -15,21 +15,15 @@ function AboutPage() {
       <section className="flex flex-col md:flex-row items-center">
         <div className="md:w-2/3 md:mr-8">
           <blockquote className="border-l-4 border-gray-900 font-serif leading-loose pl-4 text-justify">
-            The point is... to live one's life in the full complexity of what
-            one is, which is something much darker, more contradictory, more of
-            a maelstrom of impulses and passions, of cruelty, ecstacy, and
-            madness, than is apparent to the civilized being who glides on the
-            surface and fits smoothly into the world.
+           I can get your computer or laptop fixed today. With over 15 years experience in the IT industry, I can provide expert advice at a reasonable price.
           </blockquote>
 
           <cite className="font-bold mt-4 text-right text-xs uppercase block">
-            – Thomas Nagel
+            – Alex Kaminski
           </cite>
         </div>
 
-        <figure className="w-2/3 md:w-1/3">
-          <img src={dogIllustration} alt="A dog relaxing" />
-        </figure>
+        <img className="rounded-full flex items-center justify-center h-64" src={profilePhoto} alt="Alex Kaminski Profile Photo" />
       </section>
     </Layout>
   );

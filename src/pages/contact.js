@@ -12,42 +12,37 @@ function ContactPage() {
       />
       <section>
 
-        <form className="mx-auto md:w-1/2">
+        <form className="mx-auto md:w-1/2" name="contact" method="POST" data-netlify="true">
           <p className="leading-loose mb-8">
-            Here is an example of a form built using Tailwind.{" "}
-            More form examples are available <a
-              href="https://tailwindcss.com/docs/examples/forms"
-              className="font-bold no-underline text-gray-700"
-            >here</a>.
-
+            Send a message and we will reply within 30 minutes.
           </p>
 
           <label
             className="block font-bold mb-2 text-xs uppercase"
             htmlFor="first-name"
           >
-            First Name
+            Name
           </label>
 
           <input
             className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
             id="first-name"
             type="text"
-            placeholder="Bill"
+            placeholder="Your name"
           />
 
           <label
             className="block font-bold mb-2 text-xs uppercase"
-            htmlFor="last-name"
+            htmlFor="email"
           >
-            Last Name
+            Email
           </label>
 
           <input
             className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
-            id="last-name"
-            type="text"
-            placeholder="Murray"
+            id="email"
+            type="email"
+            placeholder="Your email"
           />
 
           <label
@@ -60,7 +55,7 @@ function ContactPage() {
           <textarea
             className="appearance-none bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
             id="message"
-            placeholder="Say something..."
+            placeholder="What needs repairing?"
             rows="8"
           />
 

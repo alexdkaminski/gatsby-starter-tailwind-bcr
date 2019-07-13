@@ -2,7 +2,8 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
+import messageIcon from "../images/message-icon.svg";
+import homeTechnician from "../images/home-technician.png";
 
 function IndexPage() {
   return (
@@ -14,25 +15,32 @@ function IndexPage() {
 
       <section className="text-center">
         <img
-          src={catAndHumanIllustration}
+          src={homeTechnician}
           className="block mx-auto w-1/2"
           alt="Cat and human sitting on a couch"
         />
-
-        <h2 className="bg-blue-400 text-2xl font-bold inline-block my-8 p-3">
-          Brisbane Computer Repair
-        </h2>
-
-        <p className="leading-loose">
-          This is a barebones starter for Gatsby styled using{" "}
-          <a
-            href="https://tailwindcss.com/"
-            className="font-bold no-underline text-gray-900"
-          >
-            Tailwind
-          </a>
-          , a utility-first CSS framework.
-        </p>
+      </section>
+      
+      <section>
+        <div className="max-w-md mx-auto flex p-6 bg-white rounded-lg shadow-xl">
+          <div className="pt-1 mx-auto text-center">
+            <h2 className="text-blue-400 text-2xl font-bold inline-block p-3">
+              Brisbane Computer Repair
+            </h2>
+            <p className="leading-loose">
+              Call now for a free quote {" "}
+              <a href="tel:0435619337" className="font-bold no-underline text-blue-400">
+                0435 619 337
+              </a>
+            </p>
+            <p className="leading-loose">
+              Or message us {" "}
+              <a href="tel:0435619337" className="font-bold no-underline text-blue-400">
+                Send message
+              </a>
+            </p>
+          </div>
+        </div>
       </section>
 
     </Layout>

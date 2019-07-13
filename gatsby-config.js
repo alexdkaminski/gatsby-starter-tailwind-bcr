@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
+    title: `Brisbane Computer Repair`,
+    description: `Call Brisbane Computer Repair today to get a free quote. 0435 519 337.`,
     author: `@taylorbryant`
   },
   plugins: [
