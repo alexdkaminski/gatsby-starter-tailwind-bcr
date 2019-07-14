@@ -11,10 +11,12 @@ function SuccessPage() {
                 keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
             />
 
-
-            <p className="mx-auto md:w-1/2">
-                Thanks for your message, we will contact you within 30 minutes.
-            </p>
+            <section>
+                <p className="mx-auto md:w-1/2">
+                    Thanks for your message, we will contact you within 30 minutes.
+                </p>
+            </section>
+           
 
         </Layout>
     );

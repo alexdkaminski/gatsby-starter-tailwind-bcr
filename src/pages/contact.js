@@ -19,14 +19,15 @@ function ContactPage() {
 
           <label
             className="block font-bold mb-2 text-xs uppercase"
-            htmlFor="first-name"
+            htmlFor="name"
           >
             Name
           </label>
 
           <input
+            name="name"
             className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
-            id="first-name"
+            id="name"
             type="text"
             placeholder="Your name"
           />
@@ -39,6 +40,7 @@ function ContactPage() {
           </label>
 
           <input
+            name="email"
             className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
             id="email"
             type="email"
@@ -53,6 +55,7 @@ function ContactPage() {
           </label>
 
           <textarea
+            name="message"
             className="appearance-none bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
             id="message"
             placeholder="What needs repairing?"
