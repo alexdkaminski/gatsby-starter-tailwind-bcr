@@ -1,6 +1,7 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React, { useState } from "react";
+import icon from "../images/icon-blue.png";
 
 function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -8,9 +9,12 @@ function Header({ siteTitle }) {
   return (
     <nav className="bg-blue-500">
       <div className="flex flex-wrap items-center justify-between max-w-4xl mx-auto p-4 md:p-8">
-        <Link to="/" className="flex items-center no-underline text-white">
-          <span className="font-bold text-xl tracking-tight">{siteTitle}</span>
-        </Link>
+      <img
+          src={icon}
+          className="block mx-auto"
+          alt="Brisbane Computer Repair Logo"
+          width="90"
+        />
 
         <button
           className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-white"
