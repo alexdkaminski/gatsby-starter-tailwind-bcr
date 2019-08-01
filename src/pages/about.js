@@ -12,7 +12,7 @@ function AboutPage() {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
       />
 
-      <section className="flex flex-col md:flex-row items-center">
+      <section className="flex flex-col md:flex-row items-center max-w-4xl mx-auto">
         <div className="md:w-2/3 md:mr-8">
           <blockquote className="border-l-4 border-gray-900 font-serif leading-loose pl-4 text-justify">
            I can get your computer or laptop fixed today. With over 15 years experience in the IT industry, I can provide expert advice at a reasonable price.
