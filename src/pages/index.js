@@ -6,7 +6,11 @@ import messageIcon from "../images/message-icon.svg";
 import homeTechnician from "../images/home-technician.png";
 import icon from "../images/icon.png"
 import profilePhoto from "../images/profile-photo.jpg";
-import serviceDesk from "../images/service-desk-800w-crop-grey.png";
+import serviceDesk from "../images/service-desk.png";
+import computer from "../images/computer.png";
+import laptop from "../images/laptop.png";
+import tools from "../images/tools.png";
+import virusProtection from "../images/virus-protection.png";
 
 
 function IndexPage() {
@@ -17,60 +21,84 @@ function IndexPage() {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
       />
 
-    <div className="py-20 bg w-auto block">
-      <div className="container mx-auto px-6 max-w-4xl">
-        <h2 className="text-4xl font-bold mb-2 text-white">
-          Brisbane Computer Repair
-        </h2>
-        <h3 className="text-2xl mb-8 text-gray-200">
-          Call now for a free quote
-        </h3>
-        <button className="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
-          Call 0435 619 337
-        </button>
+    <div className="w-full py-20 bg">
+      <div className="flex flex-wrap max-w-4xl mx-auto">
+          <div className="container px-12 py-6 w-full md:w-1/2">
+            <h2 className="text-4xl font-bold mb-2 text-white">
+              Brisbane Computer Repair
+            </h2>
+            <h3 className="text-2xl mb-8 text-gray-200">
+              Call now for a free quote
+            </h3>
+            <button className="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
+              Call 0435 619 337
+            </button>
+          </div>
+          <div className="container mx-auto px-6 w-full md:w-1/2">
+            <div className="flex items-center h-auto w-full">
+              <div className="w-full bg-white rounded shadow-2xl p-4 m-4 md:max-w-sm md:mx-auto">
+                <h1 className="block w-full font-bold text-center text-gray-800 mb-6 text-2xl">Message</h1>
+                  <div className="flex flex-col mb-4 md:w-1/2">
+                    <input className="border py-2 px-3 text-gray-800 md:mr-2" type="text" name="name" id="name" placeholder="Name"/>
+                  </div>
+                  <div className="flex flex-col mb-4 md:w-full">
+                    <input className="border py-2 px-3 text-gray-800" type="email" name="email" id="email" placeholder="Email"/>
+                  </div>
+                  <div className="flex flex-col mb-6 md:w-full">
+                    <textarea className="border py-2 px-3 text-gray-800" name="message" id="message" placeholder="Message"/>
+                  </div>
+                  <button className="block w-full bg-teal-500 hover:bg-teal-600 text-white uppercase text-lg mx-auto p-4 rounded font-bold" type="submit">Send</button>
+              </div>
+            </div>  
+          </div>
       </div>
     </div>
 
-    <div className="py-20 w-auto block bg-gray-200">
-      <div className="container mx-auto max-w-4xl">
-      <div className="flex">
-        <div className="max-w-md mx-auto my-auto flex p-6 bg-white rounded-lg shadow-xl">
-          <div className="pt-1 mx-auto text-center">
-            <p className="leading-loose">
-              Computers
-            </p>
+    <div className="w-full bg-gray-200">
+    <div className="flex flex-wrap mb-4 max-w-4xl mx-auto">
+      
+      <div className="lg:w-1/4 md:w-1/4 sm:w-full w-full">
+        <div className="mx-10 my-10 bg-white rounded-lg shadow-xl  p-6 h-36">
+            <div className="pt-1 mx-auto text-center">
+              <img src={computer}/>
+            </div>
           </div>
-        </div>
-        <div className="max-w-md mx-auto my-auto flex p-6 bg-white rounded-lg shadow-xl">
-          <div className="pt-1 mx-auto text-center">
-            <p className="leading-loose">
-              Laptops
-            </p>
-          </div>
-        </div>
-        <div className="max-w-md mx-auto my-auto flex p-6 bg-white rounded-lg shadow-xl">
-          <div className="pt-1 mx-auto text-center">
-            <p className="leading-loose">
-              Cloud
-            </p>
-          </div>
-        </div>
-        <div className="max-w-md mx-auto my-auto flex p-6 bg-white rounded-lg shadow-xl">
-          <div className="pt-1 mx-auto text-center">
-            <p className="leading-loose">
-              Business
-            </p>
-          </div>
-        </div>
       </div>
+      <div className="lg:w-1/4 md:w-1/4 sm:w-full w-full">
+        <div className="mx-10 my-10 bg-white rounded-lg shadow-xl p-6 py-10 h-36">
+            <div className="pt-1 mx-auto text-center">
+              <img src={laptop}/>
+            </div>
+          </div>
       </div>
+      <div className="lg:w-1/4 md:w-1/4 sm:w-full w-full">
+        <div className="mx-10 my-10 bg-white rounded-lg shadow-xl p-6">
+            <div className="pt-1 mx-auto text-center">
+              <p className="leading-loose">
+              <img src={tools}/>
+              </p>
+            </div>
+          </div>
+      </div>
+      <div className="lg:w-1/4 md:w-1/4 sm:w-full w-full">
+        <div className="mx-10 my-10 bg-white rounded-lg shadow-xl p-6">
+            <div className="pt-1 mx-auto text-center">
+              <p className="leading-loose text-center">
+              <img src={virusProtection}/>
+              </p>
+            </div>
+          </div>
+      </div>
+
+    </div>
+
     </div>
 
     <div className="py-10 w-auto block">
       <div className="container mx-auto max-w-4xl">
-      <div className="flex">
+      <div className="flex flex-wrap">
         <div className="max-w-md mx-auto my-auto flex p-6">
-        <img className="rounded-full flex items-center justify-center h-64 shadow-2xl" src={profilePhoto} alt="Alex Kaminski Profile Photo" />
+          <img className="rounded-full flex items-center justify-center h-auto w-56 shadow-2xl" src={profilePhoto} alt="Alex Kaminski Profile Photo" />
         </div>
 
         <div className="max-w-md mx-auto my-auto flex p-6">
@@ -88,26 +116,23 @@ Brisbane Computer Repair will give you free advice on how to solve your computer
       </div>
     </div>
 
-    <div className="w-auto block mb-48 ">
+    <div className="w-auto block mb-16">
       <div className="container mx-auto">
-      <div className="flex">
-        <div className="bg-gray-500 w-48 flex-auto px-12 p-10 ml-6 border-b-8 border-gray-800">
-          <div className="pt-1 mx-auto text-center text-grey-700">
+      <div className="flex flex-wrap max-w-4xl mx-auto">
+        <div className="flex w-auto px-12 p-5 bg-gray-400">
+          <div className="mx-auto text-center text-grey-700">
             <h3 className="text-2xl mb-2 font-bold">
               Fast Repairs
             </h3>
             <p className="leading-loose">
             We can diagnose and repair any sort of computer or IT problem. Whether it is a computer that won't boot or a new device that you need help setting up, we are here to help.
-            </p>
-            <br></br>
-            <p className="leading-loose">
             We can diagnose and repair any sort of computer or IT problem. Whether it is a computer that won't boot or a new device that you need help setting up, we are here to help.
             </p>
           </div>
         </div>
-          <div className="flex">
-            <img src={serviceDesk} alt="Alex Kaminski Profile Photo" />
-          </div>
+        <div className="flex w-auto mx-auto my-auto">
+          <img src={serviceDesk} alt="Alex Kaminski Profile Photo" />
+        </div>
         </div>
       </div>
     </div>
