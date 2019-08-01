@@ -21,23 +21,20 @@ function IndexPage() {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
       />
 
-    <div className="w-full py-20 bg">
+    <div className="w-full md:py-10 sm:py-5 bg">
       <div className="flex flex-wrap max-w-4xl mx-auto">
-          <div className="container px-12 py-6 w-full md:w-1/2">
-            <h2 className="text-4xl font-bold mb-2 text-white">
+          <div className="container px-12 py-6 w-full md:w-1/2 my-auto">
+            <h2 className="text-4xl font-bold mb-5 text-white leading-tight">
               Brisbane Computer Repair
             </h2>
-            <h3 className="text-2xl mb-8 text-gray-200">
-              Call now for a free quote
+            <h3 className="text-2xl mb-1 text-gray-200 leading-tight">
+              Fill out the form for a free computer repair quote
             </h3>
-            <button className="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
-              Call 0435 619 337
-            </button>
           </div>
           <div className="container mx-auto px-6 w-full md:w-1/2">
             <div className="flex items-center h-auto w-full">
               <div className="w-full bg-white rounded shadow-2xl p-4 m-4 md:max-w-sm md:mx-auto">
-                <h1 className="block w-full font-bold text-center text-gray-800 mb-6 text-2xl">Message</h1>
+                <h2 className="block w-full font-bold text-center text-gray-800 mb-6 text-2xl">Free Quote</h2>
                   <div className="flex flex-col mb-4 md:w-1/2">
                     <input className="border py-2 px-3 text-gray-800 md:mr-2" type="text" name="name" id="name" placeholder="Name"/>
                   </div>
@@ -59,35 +56,51 @@ function IndexPage() {
       
       <div className="lg:w-1/4 md:w-1/4 sm:w-full w-full">
         <div className="mx-10 my-10 bg-white rounded-lg shadow-xl  p-6 h-36">
-            <div className="pt-1 mx-auto text-center">
-              <img src={computer}/>
+            <div className="pt-1 mx-auto text-center flex flex-wrap">
+              <div className="flex pb-2">
+                <img src={computer}/>
+              </div>
+              <div className="flex my-auto mx-auto">
+                <span className="font-bold">Computers</span>
+              </div>
             </div>
           </div>
       </div>
       <div className="lg:w-1/4 md:w-1/4 sm:w-full w-full">
-        <div className="mx-10 my-10 bg-white rounded-lg shadow-xl p-6 py-10 h-36">
-            <div className="pt-1 mx-auto text-center">
-              <img src={laptop}/>
+        <div className="mx-10 my-10 bg-white rounded-lg shadow-xl p-6 h-36">
+            <div className="pt-1 mx-auto text-center flex flex-wrap">
+              <div className="flex pb-2">
+                <img src={laptop}/>
+              </div>
+              <div className="flex my-auto mx-auto">
+                <span className="font-bold">Laptops</span>
+              </div>
             </div>
           </div>
       </div>
       <div className="lg:w-1/4 md:w-1/4 sm:w-full w-full">
         <div className="mx-10 my-10 bg-white rounded-lg shadow-xl p-6">
-            <div className="pt-1 mx-auto text-center">
-              <p className="leading-loose">
+          <div className="pt-1 mx-auto text-center flex flex-wrap">
+            <div className="flex pb-2">
               <img src={tools}/>
-              </p>
             </div>
-          </div>
+            <div className="flex my-auto mx-auto">
+              <span className="font-bold">Repairs</span>
+            </div>
+          </div>  
+        </div>
       </div>
       <div className="lg:w-1/4 md:w-1/4 sm:w-full w-full">
         <div className="mx-10 my-10 bg-white rounded-lg shadow-xl p-6">
-            <div className="pt-1 mx-auto text-center">
-              <p className="leading-loose text-center">
+          <div className="pt-1 mx-auto text-center flex flex-wrap">
+            <div className="flex pb-2">
               <img src={virusProtection}/>
-              </p>
+            </div>
+            <div className="flex my-auto mx-auto">
+              <span className="font-bold">Protection</span>
             </div>
           </div>
+        </div>
       </div>
 
     </div>
