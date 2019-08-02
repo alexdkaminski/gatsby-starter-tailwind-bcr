@@ -75,7 +75,7 @@ function Header({ siteTitle }) {
               Contact
             </Link>
 
-            <Link
+            {/* <Link
               to="/reviews"
               className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-gray-800 text-2xl"
             >
@@ -86,7 +86,7 @@ function Header({ siteTitle }) {
               className="block mb-4 md:inline-block mt-4 md:mt-0 mr-6 no-underline text-gray-800 text-2xl"
             >
               Blog
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
