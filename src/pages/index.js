@@ -31,10 +31,10 @@ function IndexPage() {
               Fill out the form for a free computer repair quote
             </h3>
           </div>
-          <div className="container mx-auto px-6 w-full md:w-1/2">
+          <div className="container mx-auto px-6 pb-6 w-full md:w-1/2">
             <div className="flex items-center h-auto w-full">
               <div className="w-full bg-white rounded shadow-2xl p-4 m-4 md:max-w-sm md:mx-auto">
-                <h2 className="block w-full font-bold text-center text-gray-800 mb-6 text-2xl">Free Quote</h2>
+                <h2 className="block w-full font-bold text-center text-gray-700 mb-6 text-2xl">Free Quote</h2>
                   <div className="flex flex-col mb-4 md:w-1/2">
                     <input className="border py-2 px-3 text-gray-800 md:mr-2" type="text" name="name" id="name" placeholder="Name"/>
                   </div>
@@ -54,7 +54,7 @@ function IndexPage() {
     <div className="w-full bg-gray-200">
       <div className="flex flex-wrap max-w-4xl mx-auto m-10">
         <div className="lg:w-1/4 md:w-1/4 sm:w-full w-full">
-          <div className="mx-10 mb-5 bg-white rounded-lg shadow-xl  p-6 h-36">
+          <div className="mx-10 my-5 bg-white rounded-lg shadow-xl  p-6 h-36">
               <div className="pt-1 mx-auto text-center flex flex-wrap">
                 <div className="flex pb-2">
                   <img src={computer}/>
@@ -113,7 +113,7 @@ function IndexPage() {
 
         <div className="max-w-md mx-auto my-auto flex p-6">
           <div className="pt-1 mx-auto text-center">
-            <h3 className="text-2xl mb-2 font-bold">
+            <h3 className="text-2xl mb-2 font-bold text-blue-800">
               About Us
             </h3>
             <p className="leading-loose">
@@ -129,11 +129,11 @@ Brisbane Computer Repair will give you free advice on how to solve your computer
     <div className="w-full mb-16 max-w-4xl mx-auto">
       <div className="flex flex-wrap ">
         <div className="flex px-12 p-5 py-20 bg-gray-400">
-          <div className="mx-auto text-center text-grey-700">
+          <div className="mx-auto text-center text-blue-700">
             <h3 className="text-2xl mb-2 font-bold">
               Fast Repairs
             </h3>
-            <p className="leading-loose">
+            <p className="leading-loose text-black">
             We can diagnose and repair any sort of computer or IT problem. Whether it is a computer that won't boot or a new device that you need help setting up, we are here to help.
             We can diagnose and repair any sort of computer or IT problem. Whether it is a computer that won't boot or a new device that you need help setting up, we are here to help.
             </p>

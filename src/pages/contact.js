@@ -10,7 +10,7 @@ function ContactPage() {
         title="Contact"
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
       />
-      <section>
+      <section className="pt-12 p-6">
 
         <form className="mx-auto md:w-1/2" name="contact" method="POST" netlify>
           <p className="leading-loose mb-8">
