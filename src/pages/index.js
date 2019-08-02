@@ -24,7 +24,7 @@ function IndexPage() {
 
     <div className="w-full md:py-10 sm:py-5 bg">
       <div className="flex flex-wrap max-w-4xl mx-auto">
-          <div className="container px-12 py-6 w-full md:w-1/2 my-auto">
+          <div className="container px-12 py-6 w-full md:w-2/3 my-auto">
             <h2 className="text-4xl font-bold mb-5 text-white leading-tight">
               Brisbane Computer Repair
             </h2>
@@ -32,7 +32,7 @@ function IndexPage() {
               Fill out the form for a free computer repair quote
             </h3>
           </div>
-          <div className="container mx-auto px-6 pb-6 w-full md:w-1/2">
+          <div className="container mx-auto px-6 pb-6 w-full md:w-1/3">
             <div className="flex items-center h-auto w-full">
               <div className="w-full bg-white rounded shadow-2xl p-4 m-4 md:max-w-sm md:mx-auto">
                 <h2 className="block w-full font-bold text-center text-gray-700 mb-6 text-2xl">Free Quote</h2>
@@ -45,7 +45,7 @@ function IndexPage() {
                   <div className="flex flex-col mb-6 md:w-full">
                     <textarea className="border py-2 px-3 text-gray-800" name="message" id="message" placeholder="Message"/>
                   </div>
-                  <button className="block w-full bg-teal-500 hover:bg-teal-600 text-white uppercase text-lg mx-auto p-4 rounded font-bold" type="submit">Send</button>
+                  <button className="bg-teal-500 w-full hover:bg-teal-400 text-white uppercase font-bold py-2 px-4 border-b-4 border-teal-700 hover:border-teal-500 rounded" type="submit">Send</button>
               </div>
             </div>  
           </div>

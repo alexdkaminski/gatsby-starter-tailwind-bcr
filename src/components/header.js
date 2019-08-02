@@ -63,16 +63,29 @@ function Header({ siteTitle }) {
 
             <Link
               to="/about"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-black text-2xl"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-gray-800 text-2xl"
             >
               About
             </Link>
 
             <Link
               to="/contact"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline font-bold text-gray-700 text-2xl"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-gray-800 text-2xl"
             >
               Contact
+            </Link>
+
+            <Link
+              to="/reviews"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-gray-800 text-2xl"
+            >
+              Reviews
+            </Link>
+            <Link
+              to="/reviews"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-gray-800 text-2xl"
+            >
+              Blog
             </Link>
           </div>
         </div>
