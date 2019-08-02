@@ -13,7 +13,7 @@ function Header({ siteTitle }) {
      
       <Link
               to="/"
-              className="w-1/2"
+              className="w-1/3"
             >
               <img
                 src={logo}

@@ -11,6 +11,7 @@ import computer from "../images/computer.png";
 import laptop from "../images/laptop.png";
 import tools from "../images/tools.png";
 import virusProtection from "../images/virus-protection.png";
+import logo from "../images/logo.png"
 
 
 function IndexPage() {
@@ -108,15 +109,15 @@ function IndexPage() {
       <div className="container mx-auto max-w-4xl">
       <div className="flex flex-wrap">
         <div className="max-w-md mx-auto my-auto flex p-6">
-          <img className="rounded-full flex items-center justify-center h-auto w-56 shadow-2xl" src={profilePhoto} alt="Alex Kaminski Profile Photo" />
+          <img className=" flex items-center justify-center h-auto w-auto" src={logo} alt="Alex Kaminski Profile Photo" />
         </div>
 
         <div className="max-w-md mx-auto my-auto flex p-6">
           <div className="pt-1 mx-auto text-center">
-            <h3 className="text-2xl mb-2 font-bold text-blue-800">
+            <h3 className="text-2xl mb-2 font-bold text-blue-500">
               About Us
             </h3>
-            <p className="leading-loose">
+            <p className="leading-loose text-gray-800">
               
 Brisbane Computer Repair will give you free advice on how to solve your computer problem. We have technicians across Brisbane that can come to your home or office and fix your computer or laptop today.
             </p>
@@ -128,12 +129,12 @@ Brisbane Computer Repair will give you free advice on how to solve your computer
 
     <div className="w-full mb-16 max-w-4xl mx-auto">
       <div className="flex flex-wrap ">
-        <div className="flex px-12 p-5 py-20 bg-gray-400">
-          <div className="mx-auto text-center text-blue-700">
+        <div className="flex px-12 p-5 py-20 bg-gray-200">
+          <div className="mx-auto text-center text-blue-500">
             <h3 className="text-2xl mb-2 font-bold">
               Fast Repairs
             </h3>
-            <p className="leading-loose text-black">
+            <p className="leading-loose text-gray-700">
             We can diagnose and repair any sort of computer or IT problem. Whether it is a computer that won't boot or a new device that you need help setting up, we are here to help.
             We can diagnose and repair any sort of computer or IT problem. Whether it is a computer that won't boot or a new device that you need help setting up, we are here to help.
             </p>
