@@ -2,6 +2,7 @@ import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React, { useState } from "react";
 import icon from "../images/icon.png";
+import phone from "../images/phone.png";
 
 function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -16,11 +17,22 @@ function Header({ siteTitle }) {
         />
 
         <button
-          className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-black"
+          className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-black text-lg"
+          >
+          <img
+            className="fill-current h-12 w-12"
+            src={phone}
+            alt="Phone"
+          />
+            <title>Phone</title>
+        </button>
+
+        <button
+          className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-black text-lg"
           onClick={() => toggleExpansion(!isExpanded)}
         >
           <svg
-            className="fill-current h-3 w-3"
+            className="fill-current h-12 w-12"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >

@@ -52,62 +52,59 @@ function IndexPage() {
     </div>
 
     <div className="w-full bg-gray-200">
-    <div className="flex flex-wrap mb-4 max-w-4xl mx-auto">
-      
-      <div className="lg:w-1/4 md:w-1/4 sm:w-full w-full">
-        <div className="mx-10 my-10 bg-white rounded-lg shadow-xl  p-6 h-36">
+      <div className="flex flex-wrap max-w-4xl mx-auto m-10">
+        <div className="lg:w-1/4 md:w-1/4 sm:w-full w-full">
+          <div className="mx-10 mb-5 bg-white rounded-lg shadow-xl  p-6 h-36">
+              <div className="pt-1 mx-auto text-center flex flex-wrap">
+                <div className="flex pb-2">
+                  <img src={computer}/>
+                </div>
+                <div className="flex my-auto mx-auto">
+                  <span className="font-bold text-blue-700">Computers</span>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div className="lg:w-1/4 md:w-1/4 sm:w-full w-full">
+          <div className="mx-10 my-5 bg-white rounded-lg shadow-xl p-6 h-36">
+              <div className="pt-1 mx-auto text-center flex flex-wrap">
+                <div className="flex pb-2">
+                  <img src={laptop}/>
+                </div>
+                <div className="flex my-auto mx-auto">
+                  <span className="font-bold text-blue-600">Laptops</span>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div className="lg:w-1/4 md:w-1/4 sm:w-full w-full">
+          <div className="mx-10 my-5 bg-white rounded-lg shadow-xl p-6">
             <div className="pt-1 mx-auto text-center flex flex-wrap">
               <div className="flex pb-2">
-                <img src={computer}/>
+                <img src={tools}/>
               </div>
               <div className="flex my-auto mx-auto">
-                <span className="font-bold">Computers</span>
+                <span className="font-bold text-blue-500">Repairs</span>
               </div>
-            </div>
+            </div>  
           </div>
-      </div>
-      <div className="lg:w-1/4 md:w-1/4 sm:w-full w-full">
-        <div className="mx-10 my-10 bg-white rounded-lg shadow-xl p-6 h-36">
+        </div>
+        <div className="lg:w-1/4 md:w-1/4 sm:w-full w-full">
+          <div className="mx-10 mt-5 bg-white rounded-lg shadow-xl p-6">
             <div className="pt-1 mx-auto text-center flex flex-wrap">
               <div className="flex pb-2">
-                <img src={laptop}/>
+                <img src={virusProtection}/>
               </div>
               <div className="flex my-auto mx-auto">
-                <span className="font-bold">Laptops</span>
+                <span className="font-bold text-blue-400">Protection</span>
               </div>
             </div>
           </div>
-      </div>
-      <div className="lg:w-1/4 md:w-1/4 sm:w-full w-full">
-        <div className="mx-10 my-10 bg-white rounded-lg shadow-xl p-6">
-          <div className="pt-1 mx-auto text-center flex flex-wrap">
-            <div className="flex pb-2">
-              <img src={tools}/>
-            </div>
-            <div className="flex my-auto mx-auto">
-              <span className="font-bold">Repairs</span>
-            </div>
-          </div>  
         </div>
       </div>
-      <div className="lg:w-1/4 md:w-1/4 sm:w-full w-full">
-        <div className="mx-10 my-10 bg-white rounded-lg shadow-xl p-6">
-          <div className="pt-1 mx-auto text-center flex flex-wrap">
-            <div className="flex pb-2">
-              <img src={virusProtection}/>
-            </div>
-            <div className="flex my-auto mx-auto">
-              <span className="font-bold">Protection</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
 
-    </div>
-
-    <div className="py-10 w-auto block">
+    <div className="py-10 w-full ">
       <div className="container mx-auto max-w-4xl">
       <div className="flex flex-wrap">
         <div className="max-w-md mx-auto my-auto flex p-6">
@@ -129,10 +126,9 @@ Brisbane Computer Repair will give you free advice on how to solve your computer
       </div>
     </div>
 
-    <div className="w-auto block mb-16">
-      <div className="container mx-auto">
-      <div className="flex flex-wrap max-w-4xl mx-auto">
-        <div className="flex w-auto px-12 p-5 bg-gray-400">
+    <div className="w-full mb-16 max-w-4xl mx-auto">
+      <div className="flex flex-wrap ">
+        <div className="flex px-12 p-5 py-20 bg-gray-400">
           <div className="mx-auto text-center text-grey-700">
             <h3 className="text-2xl mb-2 font-bold">
               Fast Repairs
@@ -143,11 +139,10 @@ Brisbane Computer Repair will give you free advice on how to solve your computer
             </p>
           </div>
         </div>
-        <div className="flex w-auto mx-auto my-auto">
+        <div className="flex ">
           <img src={serviceDesk} alt="Alex Kaminski Profile Photo" />
         </div>
         </div>
-      </div>
     </div>
 
 
