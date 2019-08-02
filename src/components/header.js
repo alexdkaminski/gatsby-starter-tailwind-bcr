@@ -54,12 +54,12 @@ function Header({ siteTitle }) {
           } md:block md:flex md:items-center w-full md:w-auto`}
         >
           <div className="text-md text-right">
-            {/* <Link
+            <Link
               to="/"
               className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-black"
             >
               Home
-            </Link> */}
+            </Link>
 
             <Link
               to="/about"
