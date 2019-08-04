@@ -34,7 +34,7 @@ function IndexPage() {
           </div>
           <div className="container mx-auto px-2 pb-6 w-full md:w-2/3">
             <div className="flex items-center h-auto w-full">
-              <form className="mx-auto" name="home" method="POST" data-netlify="true">
+              <form className="mx-auto" name="home" method="POST" data-netlify="true" action="/success">
                 <div className="w-full bg-white rounded shadow-2xl p-4 m-4 md:max-w-sm md:mx-auto">
                   <h2 className="block w-full font-bold text-center text-gray-700 mb-6 text-2xl">Free Quote</h2>
                       <div className="flex flex-col mb-4 md:w-full">

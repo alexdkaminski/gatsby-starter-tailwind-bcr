@@ -12,7 +12,7 @@ function ContactPage() {
       />
       <section className="pt-12 p-6">
 
-        <form className="mx-auto md:w-1/2" name="contact" method="POST" netlify>
+        <form className="mx-auto md:w-1/2" name="contact" method="POST" netlify action="/success">
           <p className="leading-loose mb-8">
             Send a message and we will reply within 30 minutes.
           </p>
