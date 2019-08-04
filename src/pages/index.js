@@ -24,7 +24,7 @@ function IndexPage() {
 
     <div className="w-full md:py-10 sm:py-5 bg">
       <div className="flex flex-wrap max-w-4xl mx-auto">
-          <div className="container px-12 py-6 w-full md:w-2/3 my-auto">
+          <div className="container mx-auto py-6 w-full md:w-1/3 my-auto">
             <h2 className="text-4xl font-bold mb-5 text-white leading-tight">
               Brisbane Computer Repair
             </h2>
@@ -32,13 +32,17 @@ function IndexPage() {
               Fill out the form for a free computer repair quote
             </h3>
           </div>
-          <div className="container mx-auto px-6 pb-6 w-full md:w-1/3">
+          <div className="container mx-auto px-2 pb-6 w-full md:w-2/3">
             <div className="flex items-center h-auto w-full">
               <div className="w-full bg-white rounded shadow-2xl p-4 m-4 md:max-w-sm md:mx-auto">
                 <h2 className="block w-full font-bold text-center text-gray-700 mb-6 text-2xl">Free Quote</h2>
-                  <div className="flex flex-col mb-4 md:w-1/2">
-                    <input className="border py-2 px-3 text-gray-800 md:mr-2" type="text" name="name" id="name" placeholder="Name"/>
+                    <div className="flex flex-col mb-4 md:w-full">
+                      <input className="border py-2 px-3 text-gray-800 " type="text" name="name" id="name" placeholder="Name"/>
+                    </div>
+                    <div className="flex flex-col mb-4 md:w-full">
+                    <input className="border py-2 px-3 text-gray-800 " type="text" name="name" id="name" placeholder="Phone"/>
                   </div>
+                 
                   <div className="flex flex-col mb-4 md:w-full">
                     <input className="border py-2 px-3 text-gray-800" type="email" name="email" id="email" placeholder="Email"/>
                   </div>
