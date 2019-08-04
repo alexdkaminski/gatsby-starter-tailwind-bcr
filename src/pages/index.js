@@ -34,19 +34,21 @@ function IndexPage() {
           </div>
           <div className="container mx-auto px-6 pb-6 w-full md:w-1/3">
             <div className="flex items-center h-auto w-full">
-              <div className="w-full bg-white rounded shadow-2xl p-4 m-4 md:max-w-sm md:mx-auto">
-                <h2 className="block w-full font-bold text-center text-gray-700 mb-6 text-2xl">Free Quote</h2>
-                  <div className="flex flex-col mb-4 md:w-1/2">
-                    <input className="border py-2 px-3 text-gray-800 md:mr-2" type="text" name="name" id="name" placeholder="Name"/>
-                  </div>
-                  <div className="flex flex-col mb-4 md:w-full">
-                    <input className="border py-2 px-3 text-gray-800" type="email" name="email" id="email" placeholder="Email"/>
-                  </div>
-                  <div className="flex flex-col mb-6 md:w-full">
-                    <textarea className="border py-2 px-3 text-gray-800" name="message" id="message" placeholder="Message"/>
-                  </div>
-                  <button className="bg-teal-500 w-full hover:bg-teal-400 text-white uppercase font-bold py-2 px-4 border-b-4 border-teal-700 hover:border-teal-500 rounded" type="submit">Send</button>
-              </div>
+              <form className="mx-auto" name="home" method="POST" netlify>
+                <div className="w-full bg-white rounded shadow-2xl p-4 m-4 md:max-w-sm md:mx-auto">
+                  <h2 className="block w-full font-bold text-center text-gray-700 mb-6 text-2xl">Free Quote</h2>
+                    <div className="flex flex-col mb-4 md:w-1/2">
+                      <input className="border py-2 px-3 text-gray-800 md:mr-2" type="text" name="name" id="name" placeholder="Name"/>
+                    </div>
+                    <div className="flex flex-col mb-4 md:w-full">
+                      <input className="border py-2 px-3 text-gray-800" type="email" name="email" id="email" placeholder="Email"/>
+                    </div>
+                    <div className="flex flex-col mb-6 md:w-full">
+                      <textarea className="border py-2 px-3 text-gray-800" name="message" id="message" placeholder="Message"/>
+                    </div>
+                    <button className="bg-teal-500 w-full hover:bg-teal-400 text-white uppercase font-bold py-2 px-4 border-b-4 border-teal-700 hover:border-teal-500 rounded" type="submit">Send</button>
+                </div>
+              </form>
             </div>  
           </div>
       </div>
