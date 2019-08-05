@@ -22,9 +22,9 @@ function IndexPage() {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
       />
 
-    <div className="w-full md:py-10 sm:py-5 bg">
+    <div className="md:py-10 sm:py-5 bg">
       <div className="flex flex-wrap max-w-4xl mx-auto">
-          <div className="container mx-auto px-6 py-6  w-full md:w-1/3 ">
+          <div className="container px-6 py-6 md:w-1/3">
             <h2 className="text-3xl font-bold mb-5 text-white leading-tight">
               Brisbane Computer Repair
             </h2>

@@ -24,7 +24,7 @@ function Header({ siteTitle }) {
 
 
         <a
-          className="block  md:hidden border border-white flex items-center px-3 py-2 rounded text-black text-lg"
+          className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-black text-lg"
           href="tel:0435 619 337"
           >
           <img
@@ -71,7 +71,7 @@ function Header({ siteTitle }) {
 
             <Link
               to="/contact"
-              className="block md:inline-block mt-4 md:mt-0 no-underline text-gray-800 text-2xl"
+              className="block md:inline-block mt-4 md:mt-0 mr:6 no-underline text-gray-800 text-2xl"
             >
               Contact
             </Link>
