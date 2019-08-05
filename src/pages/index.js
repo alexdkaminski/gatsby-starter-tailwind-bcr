@@ -11,7 +11,7 @@ import computer from "../images/computer.png";
 import laptop from "../images/laptop.png";
 import tools from "../images/tools.png";
 import virusProtection from "../images/virus-protection.png";
-import logo from "../images/logo.png"
+import logo from "../images/logo-scaled.png"
 
 
 function IndexPage() {
@@ -126,7 +126,7 @@ function IndexPage() {
       <div className="container mx-auto max-w-4xl">
       <div className="flex flex-wrap">
         <div className="max-w-md mx-auto my-auto flex p-6">
-          <img className=" flex items-center justify-center h-auto w-auto" src={logo} alt="Alex Kaminski Profile Photo" />
+          <img className=" flex items-center justify-center h-auto w-auto" src={logo} alt="Brisbane Computer Repair Logo" />
         </div>
 
         <div className="max-w-md mx-auto my-auto flex p-6">

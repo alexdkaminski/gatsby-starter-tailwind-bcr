@@ -3,7 +3,7 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import profilePhoto from "../images/profile-photo.jpg";
-import logo from "../images/logo.png"
+import logo from "../images/logo-scaled.png"
 
 function AboutPage() {
   return (

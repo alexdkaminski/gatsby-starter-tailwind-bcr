@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React, { useState } from "react";
-import logo from "../images/logo.png";
+import logo from "../images/logo-scaled.png";
 import phone from "../images/phone.png";
 
 function Header({ siteTitle }) {
