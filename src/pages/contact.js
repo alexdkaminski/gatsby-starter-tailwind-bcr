@@ -14,8 +14,11 @@ function ContactPage() {
 
         <form className="w-full mb-16 max-w-4xl mx-auto" name="Contact" method="POST" data-netlify="true" action="/success">
           <input type="hidden" name="form-name" value="Contact"/>
-          <p className="leading-loose mb-8">
+          <p className="text-lg leading-loose">
             Send a message and we will reply within 30 minutes.
+          </p>
+          <p className="text-lg font-bold mb-8">
+              For urgent help, please call <a className="text-blue-500 underline hover:no-underline" href="tel:0435 619 337">0435 619 337</a>
           </p>
 
           <label
@@ -31,6 +34,21 @@ function ContactPage() {
             id="name"
             type="text"
             placeholder="Your name"
+          />
+
+<label
+            className="block font-bold mb-2 text-xs uppercase"
+            htmlFor="name"
+          >
+            Phone
+          </label>
+
+          <input
+            name="phone"
+            className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
+            id="phone"
+            type="text"
+            placeholder="Your phone number"
           />
 
           <label
@@ -64,8 +82,8 @@ function ContactPage() {
           />
 
           <button
-            className="border-b-4 border-gray-800 hover:border-gray-700 bg-gray-700 hover:bg-gray-600 font-bold px-4 py-2 rounded text-sm text-white">
-            Submit
+            className="bg-teal-500 w-full hover:bg-teal-400 text-white uppercase font-bold py-2 px-4 border-b-4 border-teal-700 hover:border-teal-500 rounded">
+            Send
           </button>
         </form>
 
