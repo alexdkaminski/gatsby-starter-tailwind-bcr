@@ -18,7 +18,7 @@ function AboutPage() {
       <div className="w-full mb-16 max-w-4xl mx-auto ">
           <div>
             <blockquote className="border-l-4 border-gray-900 leading-loose pl-4 text-justify bg-gray-200 p-6">
-            I can get your computer or laptop fixed today. With over 15 years experience in the IT industry, I can provide expert advice at a reasonable price. We have a passion for problem solving and will do our best to fix your IT problems as quickly as possible. We are committed to constantly training to perfect our service so that we can ensure every customer walks away satisfied.
+            I can get your computer, laptop, software or general IT issue fixed today. With over 10 years experience in the IT industry, I can provide expert advice at a reasonable price. I have a passion for problem solving and will do my best to fix your IT problem as quickly as possible. I am committed to constantly training to perfect our service so that I can ensure that every customer walks away satisfied.
             </blockquote>
 
             <cite className="font-bold mt-4 text-right text-xl block mb-4 mr-2">
