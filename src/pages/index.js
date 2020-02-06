@@ -18,7 +18,7 @@ function IndexPage() {
   return (
     <Layout>
       <SEO
-      title=""
+      title="Brisbane Computer Repair"
       />
       <div className="md:py-10 sm:py-5 bg">
         <div className="flex flex-wrap max-w-4xl mx-auto">
