@@ -17,7 +17,8 @@ import logo from "../images/logo-scaled.png"
 function IndexPage() {
   return (
     <Layout>
-
+      <SEO
+      />
       <div className="md:py-10 sm:py-5 bg">
         <div className="flex flex-wrap max-w-4xl mx-auto">
           <div className="container px-6 py-6 md:w-1/3">
