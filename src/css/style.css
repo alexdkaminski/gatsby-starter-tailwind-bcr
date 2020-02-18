@@ -64,3 +64,11 @@
  .bg {
      background: linear-gradient(90deg, #1b4470 0%, #188ae7 100%)
  }
+
+ .orange {
+    color: #F47E00;
+ }
+
+ .inline-block {
+    display: inline-block;
+ }

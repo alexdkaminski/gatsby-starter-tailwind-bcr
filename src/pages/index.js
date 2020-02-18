@@ -1,6 +1,7 @@
 import React from "react";
 
 import Layout from "../components/layout";
+import Reviews from "../components/reviews";
 import SEO from "../components/seo";
 import messageIcon from "../images/message-icon.svg";
 import homeTechnician from "../images/home-technician.png";
@@ -11,7 +12,8 @@ import computer from "../images/computer.png";
 import laptop from "../images/laptop.png";
 import tools from "../images/tools.png";
 import virusProtection from "../images/virus-protection.png";
-import logo from "../images/logo-scaled.png"
+import logo from "../images/logo-scaled.png";
+
 
 
 function IndexPage() {
@@ -57,9 +59,9 @@ function IndexPage() {
         </div>
       </div>
       <div className="bg-gray-200">
-        <div className="container max-w-4xl mx-auto">
+        <div className="container max-w-4xl mx-auto my-8">
           <div className="flex flex-wrap ">
-            <div className="lg:w-72 md:w-1/3 sm:w-full">
+            <div className="md:w-1/3 sm:w-full">
               <div className="m-5 bg-white rounded-lg shadow-xl p-4 h-36">
                 <div className="pt-1 mx-auto text-center flex flex-wrap">
                   <img src={laptop} className="mx-auto" />
@@ -70,7 +72,7 @@ function IndexPage() {
                 </div>
               </div>
             </div>
-            <div className="lg:w-72 md:w-1/3 sm:w-full">
+            <div className="md:w-1/3 sm:w-full">
               <div className="m-5 bg-white rounded-lg shadow-xl p-4 h-36">
                 <div className="pt-1 mx-auto text-center flex flex-wrap">
                   <img src={computer} className="mx-auto" />
@@ -81,7 +83,7 @@ function IndexPage() {
                 </div>
               </div>
             </div>
-            <div className="lg:w-72 md:w-1/3 sm:w-full">
+            <div className="md:w-1/3 sm:w-full">
               <div className="m-5 bg-white rounded-lg shadow-xl p-4 h-36">
                 <div className="pt-1 mx-auto text-center flex flex-wrap">
                   <div className="flex flex-col my-auto mx-auto">
@@ -95,6 +97,7 @@ function IndexPage() {
           </div>
         </div>
       </div>
+      <Reviews/>
 
 
     </Layout>

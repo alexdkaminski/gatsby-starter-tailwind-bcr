@@ -1,0 +1,42 @@
+[
+    {
+        "author_name": "Luke K",
+        "author_url": "https://www.google.com/maps/contrib/108498548800353769457/reviews",
+        "language": "en",
+        "profile_photo_url": "../images/lukek.png",
+        "rating": 5,
+        "relative_time_description": "5 months ago",
+        "text": "I purchased components for a PC and Alex put it together within hours for me to pick up. Everything worked great after powering on. Very reasonably priced and great communication! Highly recommended!",
+        "time": 1566949693
+    },
+    {
+        "author_name": "Chris Symes",
+        "author_url": "https://www.google.com/maps/contrib/104105207376384023282/reviews",
+        "language": "en",
+        "profile_photo_url": "../images/chriss.png",
+        "rating": 5,
+        "relative_time_description": "7 months ago",
+        "text": "Alex was awesome, contacted early morning, had it looked at and resolved by 10, followed up helping me with a new build and advice in web design and other areas.  Very easy to talk to and professional.  Prompt and good communication at all times.",
+        "time": 1563333757
+    },
+    {
+        "author_name": "Steve Lenton",
+        "author_url": "https://www.google.com/maps/contrib/107239327680450706759/reviews",
+        "language": "en",
+        "profile_photo_url": "../images/stevel.png",
+        "rating": 5,
+        "relative_time_description": "5 months ago",
+        "text": "I had an emergency IT issue and got through to Alex immediately. He was super helpful with my dilemma and was more than happy to drop everything to come help me at my address in brisbane CBD.",
+        "time": 1568682837
+    },
+    {
+        "author_name": "Donna Hein",
+        "author_url": "https://www.google.com/maps/contrib/105173502024906051302/reviews",
+        "language": "en",
+        "profile_photo_url": "../images/donnah.png",
+        "rating": 5,
+        "relative_time_description": "9 months ago",
+        "text": "Great service from Alex! I rang him with an urgent request to look at my laptop.\nAlex diagnosed the issues with my laptop and had it up and running again, sooner than I expected.",
+        "time": 1557957742
+    }
+]
