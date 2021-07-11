@@ -19,7 +19,7 @@ function ContactPage() {
             Send a message and we will reply within 30 minutes.
           </p>
           <p className="text-lg font-bold mb-8">
-              For free advice, please call <a className="text-blue-500 underline hover:no-underline" href="tel:0435 619 337">0435 619 337</a>
+              For free advice, please call <a className="text-blue-500 underline hover:no-underline" href="tel:0492 810 284">0492 810 284</a>
           </p>
 
           <label
