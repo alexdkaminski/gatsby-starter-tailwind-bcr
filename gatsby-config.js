@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Brisbane Computer Repair`,
-    description: `Call Brisbane Computer Repair today to get a free quote. 0435 519 337.`,
+    description: `Call Brisbane Computer Repair today to get a free quote. 0466 616 563.`,
     author: `@taylorbryant`
   },
   plugins: [
