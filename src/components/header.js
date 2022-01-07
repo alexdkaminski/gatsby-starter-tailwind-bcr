@@ -25,7 +25,7 @@ function Header({ siteTitle }) {
 
         <a
           className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-black text-lg"
-          href="tel:0492 810 284"
+          href="tel:0466 616 563 "
           >
           <img
             className="fill-current h-12 w-12"
